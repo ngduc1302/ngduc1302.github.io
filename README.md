@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ngduc1302.github.io</title>
+
 <meta name="generator" content="Jekyll v3.9.3">
 <meta property="og:title" content="ngduc1302.github.io">
 <meta property="og:locale" content="en_US">
@@ -46,7 +46,6 @@
 
   <link rel="icon" sizes="192x192" href="https://www.wix.com/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="C:\Users\titng\OneDrive\Hình ảnh\Saved Pictures\dddd.jpg" type="image/x-icon">
-  <link rel="apple-touch-icon" href"" type="image/x-icon">
 
   <!-- Safari Pinned Tab Icon -->
   <!-- <link rel="mask-icon" href="https://www.wix.com/favicon.ico"> -->

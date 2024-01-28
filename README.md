@@ -8,7 +8,7 @@
 <meta name="generator" content="Jekyll v3.9.3">
 <meta property="og:title" content="ngduc1302.github.io">
 <meta property="og:locale" content="en_US">
-<link rel="shortcut icon" type="image/https://www.facebook.com/photo/?fbid=363997012947537&set=pob.100080117233849" href="/favicon.png"/>
+<link rel="shortcut icon" type="C:\Users\titng\OneDrive\Hình ảnh\Saved Pictures\dddd.jpg" href="/favicon.png"/>
 <meta property="og:url" content="https://ngduc1302.github.io/">
 <meta property="og:site_name" content="ngduc1302.github.io">
 <meta property="og:type" content="website">

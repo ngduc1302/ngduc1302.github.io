@@ -16,6 +16,7 @@
 <meta property="twitter:title" content="ngduc1302.github.io">
 <script src="https://browser.sentry-cdn.com/6.18.2/bundle.min.js"></script><script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","headline":"ngduc1302.github.io","name":"ngduc1302.github.io","url":"https://ngduc1302.github.io/"}</script>
+<link rel="shortcut icon" type="image/https://www.facebook.com/photo/?fbid=363997012947537&set=pob.100080117233849" href="/favicon.png"/>
 <!-- End Jekyll SEO tag -->
 
     <style class="anchorjs"></style><link rel="stylesheet" href="/assets/css/style.css?v=1a072b0f42a026d16fbb4fcb48b2c102c586acbb">

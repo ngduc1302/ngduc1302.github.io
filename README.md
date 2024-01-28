@@ -45,7 +45,7 @@
   <meta name="generator" content="Wix.com Website Builder">
 
   <link rel="icon" sizes="192x192" href="https://www.wix.com/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="C:\Users\titng\OneDrive\Hình ảnh\Saved Pictures\dddd.jpg" type="image/x-icon">
   <link rel="apple-touch-icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
 
   <!-- Safari Pinned Tab Icon -->

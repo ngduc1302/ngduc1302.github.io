@@ -46,7 +46,7 @@
 
   <link rel="icon" sizes="192x192" href="https://www.wix.com/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="C:\Users\titng\OneDrive\Hình ảnh\Saved Pictures\dddd.jpg" type="image/x-icon">
-  <link rel="apple-touch-icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href"https://cdn.fbsbx.com/v/t59.2708-21/424526958_3656009387977488_7956314597855410360_n.ico/dddd-1.ico?_nc_cat=110&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeHGz6A0TyxDzjeYusHBb0BfLfz2ID42Ktst_PYgPjYq22-WJGd5Ul97tmRVQmzdSokRwGmFrOZv43SYAdrQSvx1&_nc_ohc=Zi2-aWr0yiUAX-PMJ85&_nc_ht=cdn.fbsbx.com&oh=03_AdQmFpFERCxYrHhIXN6baXxdFfSKkcDBK6qNgeRKmLDxZw&oe=65B850A1&dl=1" type="image/x-icon">
 
   <!-- Safari Pinned Tab Icon -->
   <!-- <link rel="mask-icon" href="https://www.wix.com/favicon.ico"> -->

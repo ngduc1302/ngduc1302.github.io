@@ -1,0 +1,46 @@
+ h1{
+        color:rgba(255, 0, 0, 0.897);
+        font-size: 55px;
+        font-family: Cursive;
+        text-align: center;
+        padding-bottom: 88px;
+    }
+    p{
+        color:rgb(255, 127, 202);
+        font-size: 33px;
+        font-family: initial;
+    
+    }
+h2{
+    color: black;
+   
+}    
+#ngduc{
+    font-family:Arial, Helvetica, sans-serif;
+
+} 
+.klinh{
+    font-family:'Courier New', Courier, monospace;
+    color: red;
+    font-size: 49px;
+}
+
+.box{
+    width: 22%;
+    height: 55px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+a{font-size: 55px;
+}
+h1:hover{
+    color: blue;
+}
+img{
+    width: 888px;
+    height: 888px;
+}

@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5; /* Light background similar to the image */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><circle cx="100" cy="100" r="80" fill="%23e0e0e0" opacity="0.1"/><path d="M50 100 Q100 20 150 100 T50 100" fill="%23d0d0d0" opacity="0.1"/><path d="M50 100 Q100 180 150 100 T50 100" fill="%23d0d0d0" opacity="0.1" transform="rotate(45 100 100)"/><path d="M50 100 Q100 180 150 100 T50 100" fill="%23d0d0d0" opacity="0.1" transform="rotate(90 100 100)"/></svg>');
+    background-size: 150px;
+    background-repeat: repeat;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5; /* Đây là dòng bạn cần thay đổi */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Dòng background-image bên dưới này có thể xóa hoặc comment lại nếu chỉ muốn màu đơn */
+    background-image: url('https://scontent.fhan15-1.fna.fbcdn.net/v/t1.15752-9/508874077_705717375426003_3527497069102093013_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=GvBMLGD6Mv4Q7kNvwEzpIf-&_nc_oc=AdnRv1cqqzmgsy-MQ_A9yZrUhKNQFceGdMj7eKlTvJQYQHvfsF9oEG54KTho14fC8k7hv3SV9_EpNTaqWbvKvYgN&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&oh=03_Q7cD2gGiDt9PYkb_mFw645hybhwK_2GYJc5j5i6sQr23lhVX7Q&oe=6883C9AC');
+    background-size: 1000px ;
+    background-repeat: repeat;
+
+}
+
+.quiz-container {
+    background-color: #8c8c8c; /* Màu nền container tương tự hình ảnh bạn gửi trước đó */
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 550px; /* Tăng chiều rộng để phù hợp với giao diện */
+    color: #fff;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    position: relative;
+    overflow: hidden; /* Ensure background patterns stay within */
+}
+
+/* Header style for question number and title */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #eee;
+}
+
+.question-text {
+    font-size: 2.2em; /* Kích thước chữ lớn hơn cho từ vựng */
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px; /* Khoảng cách giữa các nút lựa chọn */
+    margin-bottom: 30px;
+}
+
+.option-btn {
+    background-color: #a0d9b6; /* Màu xanh lá nhạt */
+    border: 3px solid #6b8e23; /* Viền xanh đậm */
+    color: #333;
+    padding: 18px 25px; /* Tăng padding để nút lớn hơn */
+    border-radius: 35px; /* Bo tròn nút nhiều hơn */
+    font-size: 1.2em; /* Kích thước chữ trên nút */
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+    outline: none;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 1px rgba(255,255,255,0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Shadow nhẹ nhàng */
+}
+
+/* Màu các nút khác theo hình ảnh */
+.option-btn:nth-child(2) {
+    background-color: #d8e6a1; /* Màu vàng nhạt */
+    border: 3px solid #8c9c45;
+}
+.option-btn:nth-child(3) {
+    background-color: #f7d58a; /* Màu cam nhạt */
+    border: 3px solid #b37e0e;
+}
+.option-btn:nth-child(4) {
+    background-color: #f5b0b0; /* Màu hồng nhạt */
+    border: 3px solid #b05c5c;
+}
+
+.option-btn:hover {
+    transform: translateY(-3px); /* Hiệu ứng nổi lên khi hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.option-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.option-btn.correct {
+    background-color: #4CAF50; /* Xanh lá cây khi đúng */
+    border-color: #388E3C;
+    color: white;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.6); /* Shadow nổi bật */
+}
+
+.option-btn.incorrect {
+    background-color: #f44336; /* Đỏ khi sai */
+    border-color: #D32F2F;
+    color: white;
+    box-shadow: 0 4px 10px rgba(244, 67, 54, 0.6); /* Shadow nổi bật */
+}
+
+.feedback {
+    font-size: 1.4em; /* Kích thước chữ lớn hơn cho phản hồi */
+    margin-top: 20px;
+    min-height: 30px; /* Giữ khoảng trống cho thông báo */
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.next-btn, .restart-btn {
+    background-color: #6a5acd; /* Màu tím */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    outline: none;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.next-btn:hover, .restart-btn:hover {
+    background-color: #483d8b; /* Tím đậm hơn khi hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.next-btn:active, .restart-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.restart-btn {
+    display: none; /* Ban đầu ẩn nút restart */
+    background-color: #28a745; /* Màu xanh lá cho nút restart */
+    margin-left: 15px; /* Khoảng cách với nút next nếu cả hai cùng hiện */
+}

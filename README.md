@@ -16,7 +16,7 @@
             padding: 20px;
             box-sizing: border-box;
             background-image: url('https://scontent.fhan15-1.fna.fbcdn.net/v/t1.15752-9/508817678_3872052413086247_8922787907608984063_n.png?stp=dst-png_s640x640&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=z7MTi9zGgvgQ7kNvwEQVSiD&_nc_oc=AdkpDbNS9gWgbscbWPHoj1ZWwCt_BWSSo-P2JtAB0B1ypKKkbhkBi0PzVahObP92iGuytmoWN846wuqfYOTTIVzQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&oh=03_Q7cD2gHiNkVJM9d0yGcNXCwENObPRnhdoVA9cx8oQ58qivaOkw&oe=6883DA60');
-            background-size: 5000 px;
+            background-size: 10000 px;
             background-repeat: repeat;
         }
 

@@ -21,9 +21,9 @@
         }
 
         .quiz-container {
-            background-color: #8c8c8c; 
-            border-radius: 20px;
-            padding: 40px;
+            background-color: #f5b0b0; 
+            border-radius: 50px;
+            padding: 50px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
             text-align: center;
             width: 100%;

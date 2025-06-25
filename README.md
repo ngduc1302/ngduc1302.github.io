@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -15,19 +15,19 @@
             margin: 0;
             padding: 20px;
             box-sizing: border-box;
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><circle cx="100" cy="100" r="80" fill="%23e0e0e0" opacity="0.1"/><path d="M50 100 Q100 20 150 100 T50 100" fill="%23d0d0d0" opacity="0.1"/><path d="M50 100 Q100 180 150 100 T50 100" fill="%23d0d0d0" opacity="0.1" transform="rotate(45 100 100)"/><path d="M50 100 Q100 180 150 100 T50 100" fill="%23d0d0d0" opacity="0.1" transform="rotate(90 100 100)"/></svg>');
-            background-size: 150px;
+            background-image: url('[data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><circle cx="100" cy="100" r="80" fill="%23e0e0e0" opacity="0.1"/><path d="M50 100 Q100 20 150 100 T50 100" fill="%23d0d0d0" opacity="0.1"/><path d="M50 100 Q100 180 150 100 T50 100" fill="%23d0d0d0" opacity="0.1" transform="rotate(45 100 100)"/><path d="M50 100 Q100 180 150 100 T50 100" fill="%23d0d0d0" opacity="0.1" transform="rotate(90 100 100)"/></svg>](https://www.facebook.com/messenger_media/?attachment_id=3872052409752914&message_id=mid.%24cAABbBbfWOLmd2nsbq2XqTXQmaYB4&thread_id=100080117233849)');
+            background-size: 2000 px;
             background-repeat: repeat;
         }
 
         .quiz-container {
-            background-color: #8c8c8c; /* Màu nền container tương tự hình ảnh bạn gửi trước đó */
+            background-color: #8c8c8c; 
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
             text-align: center;
             width: 100%;
-            max-width: 550px; /* Tăng chiều rộng để phù hợp với giao diện */
+            max-width: 550px; 
             color: #fff;
             border: 3px solid rgba(255, 255, 255, 0.4);
             position: relative;

@@ -639,11 +639,11 @@
             
             if (selectedAnswer === correctMeaning) {
                 selectedButton.classList.add('correct');
-                feedbackElement.textContent = 'Chính xác! 🎉';
+                feedbackElement.textContent = 'GIỎI LẮM CON CỦA TA';
                 score++;
             } else {
                 selectedButton.classList.add('incorrect');
-                feedbackElement.textContent = `Sai rồi. Đáp án đúng là: ${correctMeaning}`;
+                feedbackElement.textContent = `ÓC CỨT NGU SAI RỒI CHÓ ƠI: ${correctMeaning}`;
                 // Highlight correct answer
                 optionButtons.forEach(button => {
                     if (button.textContent === correctMeaning) {
@@ -669,9 +669,9 @@
         }
 
         function endQuiz() {
-            questionTextElement.textContent = `Bạn đã hoàn thành bài Quiz! Bạn đạt ${score}/${shuffledQuestions.length} điểm.`;
+            questionTextElement.textContent = `CUỐI CÙNG CŨNG XONG HẢ ÓC CỨTTT ${score}/${shuffledQuestions.length} điểm.`;
             questionNumberElement.textContent = '';
-            feedbackElement.textContent = 'Chúc mừng bạn đã hoàn thành!';
+            feedbackElement.textContent = 'NGUUUU';
             nextButton.style.display = 'none'; // Hide next button
             restartButton.style.display = 'block'; // Show restart button
 
